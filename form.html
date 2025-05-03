@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <center>
+    <div class="form-box">
+    <form>
+        <fieldset>
+            <legend>Biodata Form</legend>
+            <p>Nama : <input type="text" nama="nama"></p>
+            <p>Alamat : <input type="text" nama="alamat"></p>
+            <p>Password : <input type="password" nama="pass"></p>
+            <p>
+                Jenis Kelamin :
+                <input type="radio" name="jk" value="laki-laki" checked />
+                    laki-laki
+                <input type="radio" name="jk" value="perempuan" />
+                    Perempuan
+            </p>
+            <p>
+                Arah peminatan mana yang kamu inginkan : <br>
+                    <input type="checkbox" name="pemro"> Pemrograman
+                    <input type="checkbox" name="data"> Data
+                    <input type="checkbox" name="network"> Jaringan
+                    <input type="checkbox" name="ui/ux"> UI/UX
+            </p>
+            <p>
+                Kota asal :
+                <select>
+                    <option>Semarang</option>
+                    <option>Bandung</option>
+                    <option>Jogja</option>
+                </select>
+            </p>
+            <p>
+                Apa yang membuat kami harus memilih anda>:<br>
+                <textarea rows="10" cols="60" placeholder="Tulis jawaban anda di sini"></textarea>
+            </p>
+            <p><input type="submit" value="Submit"></p>
+        </fieldset>
+    </form>
+    <div class="back">
+        <a href="index.html">Home</a>
+    </div>
+    </div>
+    </center>
+</body>
+</html>
